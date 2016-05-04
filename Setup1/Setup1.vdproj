@@ -15,14 +15,26 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_D827D4E2106F41DD9F8BAD1A1D5AEFB6"
+        "MsmKey" = "8:_5291BA2886234995BEA6CD119D02EAC5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D0E812ACF5E34A29B4D9B067B59E0B37"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E8E08298C5C34DD285789AB7ECA061C1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D827D4E2106F41DD9F8BAD1A1D5AEFB6"
+        "OwnerKey" = "8:_5291BA2886234995BEA6CD119D02EAC5"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -43,6 +55,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -59,6 +87,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -88,6 +124,46 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D0E812ACF5E34A29B4D9B067B59E0B37"
+            {
+            "SourcePath" = "8:..\\ContractCreator\\Templates\\合同数据.xlsx"
+            "TargetName" = "8:合同数据.xlsx"
+            "Tag" = "8:"
+            "Folder" = "8:_EC4CD015F44249A9B0CC30375777CDEE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E8E08298C5C34DD285789AB7ECA061C1"
+            {
+            "SourcePath" = "8:..\\ContractCreator\\Templates\\合同模板.docx"
+            "TargetName" = "8:合同模板.docx"
+            "Tag" = "8:"
+            "Folder" = "8:_EC4CD015F44249A9B0CC30375777CDEE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -115,6 +191,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_EC4CD015F44249A9B0CC30375777CDEE"
+                    {
+                    "Name" = "8:Templates"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_6D1CFCB0D55E47C98968A5FDF79D6DEE"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_ABE460DD5F01434F86E6474F7513C0CD"
@@ -145,7 +232,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:合同生成神器"
         "ProductCode" = "8:{A9EB7C1C-1493-49AA-8370-AAB9C36CC4CB}"
-        "PackageCode" = "8:{98E3320D-96E7-4B7C-B5CF-F4C936E2DE24}"
+        "PackageCode" = "8:{DF553C9B-8A54-49BB-AE2F-93126A9B7021}"
         "UpgradeCode" = "8:{4D78DBB6-1224-4024-9018-E19B941B1C0C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -265,15 +352,15 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_02103DE954E744319B2A566EABAAFCB8"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A357EBEB659D44ECA04E8EBA9914C5ED"
             {
-            "Name" = "8:Shortcut to Primary output from ContractCreator (Active)"
+            "Name" = "8:合同生成神器"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_D827D4E2106F41DD9F8BAD1A1D5AEFB6"
+            "Target" = "8:_5291BA2886234995BEA6CD119D02EAC5"
             "Folder" = "8:_27EB9594209F47489E152B61D9F012CC"
             "WorkingFolder" = "8:_6D8684A427EB48E9BAC1776DCA557509"
             "Icon" = "8:"
@@ -678,7 +765,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D827D4E2106F41DD9F8BAD1A1D5AEFB6"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5291BA2886234995BEA6CD119D02EAC5"
             {
             "SourcePath" = "8:..\\ContractCreator\\obj\\Debug\\ContractCreator.exe"
             "TargetName" = "8:"
